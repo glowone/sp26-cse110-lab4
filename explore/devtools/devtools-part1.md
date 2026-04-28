@@ -29,3 +29,33 @@
 **Answer:** Less than a second
 
 ---
+
+### 5. What was your User-Agent for the browser that made the request?
+
+**Answer:** Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+
+---
+
+### 6. In the response header, what type of server did it come from?
+
+**Answer:** GitHub.com
+
+---
+
+### 7. When was the file last modified?
+
+**Answer:** Tue, 21 Apr 2026 05:07:14 GMT
+
+---
+
+### 8. What was the Content-Type of the file?
+
+**Answer:** `application/json`
+
+---
+
+### 9. Which function inside the initiating file made the request?
+
+**Answer:** expose.js:2
+
+---

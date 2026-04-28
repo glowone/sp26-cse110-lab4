@@ -488,13 +488,5 @@ This code demonstrates the JavaScript event loop and how asynchronous operations
    - After approximately 1000ms, the first `setTimeout` callback finishes waiting
    - `console.log(2)` executes → prints `2`
 
-**Key Concepts:**
-
-- **Synchronous Code:** `console.log(1)` and `console.log(4)` execute immediately in the order they appear
-- **Asynchronous Code:** `setTimeout` callbacks don't execute immediately; they are scheduled for later
-- **Event Loop:** JavaScript has a single-threaded event loop that processes synchronous code first, then checks the callback queue for asynchronous code
-- **setTimeout(callback, 0):** Even with `0ms` delay, the callback doesn't execute immediately—it must wait for the call stack to clear
-
-**Important Note:** The `0` in `setTimeout(..., 0)` doesn't mean "execute immediately." It means "execute as soon as possible after the current synchronous code finishes." This is why `3` prints before `2`, even though it was scheduled after.
 
 
